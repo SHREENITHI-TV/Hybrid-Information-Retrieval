@@ -4,18 +4,17 @@
 
 ### BM25 · Dense Retrieval · Hybrid Search · MS MARCO · NLP Evaluation
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-8A2BE2?style=for-the-badge)
-![BM25](https://img.shields.io/badge/BM25-Lexical%20Retrieval-111827?style=for-the-badge)
-![Dense Retrieval](https://img.shields.io/badge/Dense%20Retrieval-Transformer%20Embeddings-0F766E?style=for-the-badge)
-![MS MARCO](https://img.shields.io/badge/MS%20MARCO-Passage%20Ranking-6A5ACD?style=for-the-badge)
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](#)
+[![NLP](https://img.shields.io/badge/NLP-Information%20Retrieval-purple)](#)
+[![BM25](https://img.shields.io/badge/Retrieval-BM25-green)](#)
+[![Dense](https://img.shields.io/badge/Retrieval-Dense%20Search-orange)](#)
+[![Evaluation](https://img.shields.io/badge/Metrics-MRR%20%7C%20Recall%20%7C%20nDCG-lightgrey)](#)
 
 </div>
 
 ---
 
-## 🔍 Overview
+### 🔍 Overview
 
 This project builds a **hybrid information retrieval system** that combines **BM25 lexical search** with **transformer-based dense retrieval**.
 
@@ -25,7 +24,7 @@ The repository currently contains a Jupyter Notebook implementation for the MS M
 
 ---
 
-## 🎯 Project Goal
+### 🎯 Project Goal
 
 Traditional keyword search is strong at exact matching, while dense retrieval captures semantic similarity.  
 This project compares:
@@ -38,7 +37,7 @@ This project compares:
 
 ---
 
-## ✨ What This Project Does
+### ✨ What This Project Does
 
 - Loads and preprocesses MS MARCO passage data
 - Analyzes passage length distribution after cleaning
@@ -51,7 +50,7 @@ This project compares:
 
 ---
 
-## 🧪 Evaluation Metrics
+### 🧪 Evaluation Metrics
 
 | Metric | Purpose |
 |---|---|
@@ -61,9 +60,9 @@ This project compares:
 
 ---
 
-## 📊 Results & Visuals
+### 📊 Results & Visuals
 
-### Passage Length Distribution
+#### Passage Length Distribution
 
 Most cleaned passages are short, with an average passage length of about **33.7 tokens**.  
 The longest passage is **182 tokens**, but most passages are under 80 tokens.
@@ -72,7 +71,7 @@ The longest passage is **182 tokens**, but most passages are under 80 tokens.
 
 ---
 
-### BM25 vs Dense vs Hybrid Retrieval
+#### BM25 vs Dense vs Hybrid Retrieval
 
 Dense retrieval performs strongest across the shown Top-10 metrics, while hybrid retrieval still improves over BM25 in this run.
 
@@ -80,7 +79,7 @@ Dense retrieval performs strongest across the shown Top-10 metrics, while hybrid
 
 ---
 
-### Hybrid Failure Analysis
+#### Hybrid Failure Analysis
 
 The word cloud highlights query terms where the hybrid model struggled, helping identify possible weaknesses in ranking behavior.
 
@@ -88,7 +87,7 @@ The word cloud highlights query terms where the hybrid model struggled, helping 
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | Category | Tools / Methods |
 |---|---|
@@ -102,7 +101,7 @@ The word cloud highlights query terms where the hybrid model struggled, helping 
 
 ---
 
-## 👩‍💻 My Role
+### 👩‍💻 My Role
 
 I worked on this project as an **Automation & Validation Engineer / Search Evaluation contributor**, focusing on:
 
@@ -115,7 +114,7 @@ I worked on this project as an **Automation & Validation Engineer / Search Evalu
 
 ---
 
-## ✅ Key Takeaways
+### ✅ Key Takeaways
 
 - BM25 is useful for exact keyword matching.
 - Dense retrieval captures semantic meaning better in this experiment.
@@ -125,7 +124,7 @@ I worked on this project as an **Automation & Validation Engineer / Search Evalu
 
 ---
 
-## ▶️ How to Run
+### ▶️ How to Run
 
 1. Clone the repository.
 
@@ -145,7 +144,7 @@ I worked on this project as an **Automation & Validation Engineer / Search Evalu
 
 ---
 
-## 📌 Project Relevance
+### 📌 Project Relevance
 
 This project demonstrates practical experience with:
 
@@ -160,7 +159,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Tune hybrid weighting more systematically
 - Add Precision@K and Recall@K comparisons
@@ -173,6 +172,6 @@ This project demonstrates practical experience with:
 
 <div align="center">
 
-### Built to compare lexical, semantic, and hybrid search behavior through metric-driven evaluation.
+#### Built to compare lexical, semantic, and hybrid search behavior through metric-driven evaluation.
 
 </div>

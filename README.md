@@ -21,7 +21,7 @@ This project builds a **hybrid information retrieval system** that combines **BM
 
 The goal is to compare how different retrieval methods perform on passage ranking tasks and analyze whether combining lexical and semantic signals improves search behavior.
 
-The repository currently contains a Jupyter Notebook implementation for the MS MARCO passage ranking workflow. :contentReference[oaicite:0]{index=0}
+The repository currently contains a Jupyter Notebook implementation for the MS MARCO passage ranking workflow.
 
 ---
 

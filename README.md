@@ -66,24 +66,28 @@ This project compares:
 
 Most cleaned passages are short, with an average passage length of about **33.7 tokens**.  
 The longest passage is **182 tokens**, but most passages are under 80 tokens.
-
-![Passage Length Distribution](passage-length-distribution.png)
+<p >
+  <img src="passage-length-distribution.png" alt="Passage Length Distribution" width="550">
+</p>
 
 ---
 
 #### BM25 vs Dense vs Hybrid Retrieval
 
 Dense retrieval performs strongest across the shown Top-10 metrics, while hybrid retrieval still improves over BM25 in this run.
+<p >
+  <img src="retrieval-metrics-comparison.png" alt="Retrieval Metrics Comparison" width="650">
+</p>
 
-![Retrieval Metrics Comparison](retrieval-metrics-comparison.png)
 
 ---
 
 #### Hybrid Failure Analysis
 
 The word cloud highlights query terms where the hybrid model struggled, helping identify possible weaknesses in ranking behavior.
-
-![Hybrid Failure Wordcloud](hybrid-failure-wordcloud.png)
+<p >
+  <img src="hybrid-failure-wordcloud.png" alt="Hybrid Failure Wordcloud" width="650">
+</p>
 
 ---
 
